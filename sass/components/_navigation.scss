@@ -1,0 +1,24 @@
+.nav {
+    display: flex;
+
+    &__item {
+        display: flex;
+
+        &:not(:last-child){
+            margin-right: 6rem;
+        }
+        
+    }
+
+    &__link:link,
+    &__link:visited {
+        text-decoration: none;
+        list-style: none;
+        color: var(--color-black);   
+    }
+
+    &__link:hover,
+    &__active {
+        color: var(--color-secondary);
+    }
+}

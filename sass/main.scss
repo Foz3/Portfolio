@@ -1,0 +1,34 @@
+// 1. Abstracts 
+@import 
+    'abstracts/mixins';
+    
+
+// 2. Base 
+@import 
+    'base/animations',
+    'base/base',
+    'base/typography';
+
+// 3. Components
+@import 
+    'components/logo',
+    'components/button',
+    'components/cards',
+    'components/navigation';
+
+// 4. Layout
+@import 
+    'layout/container',
+    'layout/nav',
+    'layout/content',
+    'layout/presentation',
+    'layout/projects',
+    'layout/about',
+    'layout/contact',
+    'layout/header';
+
+// 5. Pages
+@import 
+    'pages/home';
+
+

@@ -1,0 +1,43 @@
+.header {
+
+    &__bar {
+        height: 7rem;
+        font-size: 1.5rem;
+        background-color: rgba(255,255,255, 0.9);
+        position: fixed;
+        top: 0;
+        width: 100%;
+        border-bottom: var(--line);
+        box-shadow: 0 0.5rem 2.3rem rgba(0,0,0,.1);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        opacity: 0;
+        display: none;
+
+    }
+    
+    &__scrolltop {
+        position: fixed;
+        // z-index: -1;
+        background-color: var(--color-primary);
+        border-radius: 50%;
+        cursor: pointer;
+        display: flex;
+        bottom: 0;
+        right: 0;
+        margin-right: 2rem;
+        margin-bottom: 2rem;
+        box-shadow: 0 0.5rem 2rem rgba(0,0,0,.2);
+
+        &--arrow {
+            width: 4rem;
+            height: 4rem;
+            fill: var(--color-white);
+
+        }
+        
+    }
+    
+
+}
