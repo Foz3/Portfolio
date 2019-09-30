@@ -119,6 +119,8 @@ body {
     background-blend-mode: screen; }
     .cards__image--1 {
       background-image: linear-gradient(to right, var(--color-primary), var(--color-secondary)), url(/css/img/trillo-app.png); }
+    .cards__image--2 {
+      background-image: linear-gradient(to right, var(--color-primary), var(--color-secondary)), url(/css/img/yoga.png); }
     @media only screen and (max-width: 37.5em) {
       .cards__image {
         height: 35rem; } }
@@ -221,7 +223,7 @@ body {
 
 .projects {
   margin: auto;
-  height: 60rem;
+  height: auto;
   background-color: var(--color-grey-light); }
   .projects__content {
     padding: 6rem 5rem;

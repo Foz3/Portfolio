@@ -1,6 +1,7 @@
 .projects {
     margin: auto;
-    height: 60rem;
+    height: auto;
+    // height: 60rem;
     background-color: var(--color-grey-light);
 
     &__content {
@@ -19,4 +20,6 @@
         margin-bottom: 6rem;
         text-align: center;
     }
+
+    
 }
